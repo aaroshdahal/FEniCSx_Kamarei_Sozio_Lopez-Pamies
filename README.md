@@ -1,5 +1,11 @@
 # FEniCSx_Kamarei_Sozio_Lopez-Pamies
 
+## Changes:
+!wget "https://fem-on-colab.github.io/releases/fenicsx-install-release-real.sh" -O "/tmp/fenicsx-install.sh" && bash "/tmp/fenicsx-install.sh"
+!wget "https://fem-on-colab.github.io/releases/gmsh-install.sh" -O "/tmp/gmsh-install.sh" && bash "/tmp/gmsh-install.sh"
+
+*Run these lines if errors on Google Collab*
+
 ! This repository contains FEniCSx example codes for solving boundary value problems of a family of internal-variable-based constitutive models for the viscoelastic response of elastomers of any compressibility undergoing finite deformations, put forth in [1]. A large variety of non-Gaussian elasticities and nonlinear viscosities can be taken into account by using the models introduced by [2]. The 'Uniaxial test' and the 'Single edge notch tension test' [1] are the examples used. These examples serve to illustrate the capability of the model to describe the behavior of viscoelastic elastomers. Google Colab, which provides an easy-to-use interface for running ipynb files, is one way to run these examples.
 
 !**********************************************************************
